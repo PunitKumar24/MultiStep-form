@@ -1,6 +1,6 @@
 import * as Yup from "yup";
 
-export default const nextandsubmissionSchema = Yup.object({
+export const nextandsubmissionSchema = Yup.object({
   requisitiontitle: Yup.string()
     .min(2)
     .max(25)
